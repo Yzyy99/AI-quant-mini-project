@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.npy
+*.npz
+*.parquet
+*.pt
+*.pth
+*.log
+checkpoints/
+logs/
+binance_btcusdt_1m_singlefeature_T60_H10/
+binance_btcusdt_1m_multifeature_selected_T60_H10/
