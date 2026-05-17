@@ -19,7 +19,7 @@ Best observed variant:
 - Macro F1: `0.445608`
 - MCC: `0.199982`
 
-Remote checkpoint path used in the experiment:
+Checkpoint path used in the experiment:
 
 ```text
 /home/ubuntu/quant_project/checkpoints/ce_regularized_F23_smooth002_invsqrt.pt
@@ -29,7 +29,7 @@ Remote checkpoint path used in the experiment:
 
 ```text
 src/        Training, models, losses, datasets, evaluation, KNN sweeps
-scripts/    Remote experiment runner scripts
+scripts/    Experiment runner scripts
 results/    Small JSON summary files only
 ```
 
