@@ -1,0 +1,38 @@
+{
+  "experiment": "final_ce_plus_supcon_joint_loss",
+  "variant": "joint_ce_supcon_F23_lam0p02",
+  "selection_rule": "primary_metric_macro_f1",
+  "training_objective": "loss = CE loss + lambda * SupCon loss",
+  "lambda": 0.02,
+  "baseline_ce_softmax": {
+    "val_macro_f1": 0.440289843008701,
+    "val_mcc": 0.19853330971614944
+  },
+  "best_f1_checkpoint_row": {
+    "epoch": 12,
+    "train_loss": 1.1434908716816254,
+    "ce_loss": 1.0050062695917026,
+    "supcon_loss": 6.924230243462646,
+    "val_macro_f1": 0.441856711735245,
+    "val_mcc": 0.18842999414872402,
+    "val_knn_macro_f1": 0.4200482241971499,
+    "val_knn_mcc": 0.1558721412493171,
+    "lr": 6.545084971874738e-05,
+    "seconds": 31.507657051086426
+  },
+  "best_mcc_checkpoint_row": {
+    "epoch": 6,
+    "train_loss": 1.1635102821683971,
+    "ce_loss": 1.0249951302006257,
+    "supcon_loss": 6.925757671867669,
+    "val_macro_f1": 0.42231038618325906,
+    "val_mcc": 0.1942157194052443,
+    "val_knn_macro_f1": 0.4207636926832638,
+    "val_knn_mcc": 0.1557638006533409,
+    "lr": 9.045084971874738e-05,
+    "seconds": 32.11929392814636
+  },
+  "checkpoint": "checkpoints/joint_ce_supcon_F23_lam0p02.pt",
+  "source_result": "results/joint_ce_supcon_F23_lam0p02.json",
+  "notes": "Selected as final version because macro-F1 is the primary metric for this project and CE + SupCon matches the intended supervised contrastive learning direction."
+}
