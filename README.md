@@ -34,6 +34,8 @@ scripts/    Experiment runner scripts
 results/    Small JSON summary files only
 ```
 
+See `FINAL_EXPERIMENT_REPORT.md` for the full experiment report.
+
 ## Notes
 
 Do not commit generated market data, `.npy` arrays, `.parquet` files, checkpoints, logs, or `.venv` directories.
